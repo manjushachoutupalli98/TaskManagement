@@ -20,28 +20,6 @@ This is a simple Task Management application built with a React frontend and a D
 - State Management: React Hooks
 - HTTP Client: Axios
 
-## Project Structure
-
-```
-task-management-project/
-│
-├── frontend/                # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── App.js           # Main React component
-│   │   └── index.js         # React entry point
-│   ├── package.json
-│   └── .env                 # Environment variables
-│
-└── backend/                 # Django backend
-    ├── task_management/     # Django project directory
-    │   └── settings.py      # Django settings
-    ├── tasks/               # Django app directory
-    │   ├── views.py         # API views
-    │   └── urls.py          # API URL configurations
-    └── manage.py            # Django management script
-```
-
 ## Setup and Installation
 
 ### Backend (Django)
@@ -110,13 +88,4 @@ The frontend application should now be running at `http://localhost:3000`.
 
 ## Development
 
-- The backend uses in-memory storage for tasks, so data will be lost when the server restarts. This is suitable for development but not for production use.
-- For production deployment, consider implementing proper database storage and security measures.
-
-## Contributing
-
-Feel free to fork the project, create a feature branch, and send us a pull request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+- The backend uses in-memory storage for tasks, so data will be lost when the server restarts.
